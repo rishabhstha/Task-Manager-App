@@ -14,9 +14,6 @@ router.get('/test', (req,res)=>{
 
 //Writing new user
 router.post('/users',async(req, res)=>{
-    // console.log(req.body)
-    // res.send('testing!')
-
     const user= new User(req.body)
        
     try{
