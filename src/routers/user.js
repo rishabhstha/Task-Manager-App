@@ -7,7 +7,6 @@ const router= new express.Router()
 const {sendWelcomeEmail, sendCancellationEmail} = require('../emails/account')
 
 
-
 router.get('/test', (req,res)=>{
     res.send("This is from my other router")
 })
