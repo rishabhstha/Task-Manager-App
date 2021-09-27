@@ -42,7 +42,7 @@ const userSchema =  new mongoose.Schema({
             if(value.toLowerCase().includes("password")){
                 throw new Error('Please choose another password')
             }
-        }
+        }      
     },
     tokens:[{
         token: {
